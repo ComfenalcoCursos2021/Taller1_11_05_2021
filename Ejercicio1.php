@@ -12,7 +12,7 @@
                         ? (double) $base + ($base * 0.19)
                         : (double) $base + ($base * 0.16)
                     }
-        APLICAR;
+        APLICAR; 
     }
     echo impuesto(
         base: (int) 800,
